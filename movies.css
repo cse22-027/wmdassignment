@@ -196,6 +196,7 @@ body {
     background-color: var(--primary);
     display: flex;
     justify-content: center;
+    top: 98%;
   }
   .swiper-pagination.swiper-pagination-horizontal span{
     background-color: white;
@@ -258,7 +259,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(170px,1fr));
     padding-bottom: 5%;
     padding-top: 1%;
-    grid-gap: 40px;
+    grid-gap: 10px;
   }
   .card{
     height: 249.3px;
@@ -416,7 +417,7 @@ body {
     .nav-link{
       display: flex;
       flex-wrap: wrap;
-      width: 90px;
+      width: 80px;
       height: 35px;
      -webkit-mask-size: 13vh;
     }
@@ -426,6 +427,7 @@ body {
       font-weight: 60%;
     }
   }
+  
   
   @media(max-width: 907px){
     aside{
